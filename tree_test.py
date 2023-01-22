@@ -1,6 +1,6 @@
 from ete3 import Tree, TreeStyle
 t = Tree()
-t.populate(10, random_dist=True)
+t.populate(10, random_branches=True)
 ts=TreeStyle()
 ts.show_leaf_name=True
 ts.show_branch_length=True
